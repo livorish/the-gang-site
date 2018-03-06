@@ -8,6 +8,10 @@ h1 {
     font-weight: 800;
     font-size: 50px;
 }
+h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
 h3 {
     font-weight: bold;
     font-size: 30px;
@@ -16,7 +20,11 @@ h4 {
     font-weight: bold;
     font-size: 20px;
 }
-
+p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+}
 .wrapper {
     width: 960px;
     margin: 0 auto;
@@ -95,6 +103,77 @@ button.cta.alt {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, .15);
 }
 
+nav {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+
+nav .logo {
+    display: block;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20px; 
+    margin-left: 30px;
+    background: url(img/logo.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+nav {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav ul li {
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+.more-info {
+    text-align: center;
+}
+
+.more-info p {
+    margin: 18px 0 35px;
+}
+.more-info h2 {
+    margin: 50px 0 0;
+}
+.highlight {
+    background-color: #ffadf9;
+    color: #ff3300;
+    padding: 10px;
+    line-height: 50px;
+    display: inline;
+    font-weight: 800;
+}
 
 
 
@@ -115,21 +194,13 @@ button.cta.alt {
 
 
 
-/*
-    <div class="hero-banner">
-        <div class="wrapper">
-            <h4>Rich from<a href="https://taptapkaboom.com">taptapkaboom</a></h4>
-            <h1>The Sillies &amp;<br/>
-                Most Awesome Gang<br/>
-                In The World!
-            </h1>
-            <h3>It's Circle Guy, Hat Guy &amp; Red Guy.<br/>
-            They're the best of friends.    
-            </h3>
-            <a class="cta alt" href="#more-info">Read More</a>
-        </div>
-        <div class="character1"></div>
-        <div class="character2"></div>
-        <div class="character3"></div>
-    </div>
-*/
+
+
+
+
+
+
+
+
+
+
